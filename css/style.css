@@ -1,0 +1,100 @@
+body {
+    background: url('../img/bg.JPG') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  span {
+    border-radius: 4px;
+    padding: 3px 5px;
+    color: white;
+    display: inline-block;
+    margin: 2px 0;
+    line-height: 13px;
+    font-size: 13px;
+  }
+    
+  .blur {
+    background: url('../img/bg.JPG') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    filter: blur(15px);
+    position: absolute;
+    height: 500px;
+    top: -50px;
+    left: -50px;
+    right: -50px;
+    bottom: -50px;
+  }
+  
+  .widget {
+    border-top: 2px solid rgba(255, 255, 255, .5);
+    border-bottom: 2px solid rgba(255, 255, 255, .5);
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }  
+  /*  NOT REQUIRED  */
+  
+  .text {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .text h1 {
+    text-align: center;
+    text-shadow: 1px 1px rgba(0, 0, 0, .1);
+    color: #ffffff;
+    margin-top: 57px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    display: contents;
+  }
+  /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    div.example {
+      font-size: 80px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px;
+      margin-top: 10px;
+    }
+  }
+
+  @media screen and (max-width: 570px) {
+    div.example {
+      font-size: 50px;
+    }
+  }
+
+
+  @media screen and (max-width: 809px) {
+    div.example {
+      font-size: 50px;
+    }
+  }
+
+  
+  .text p {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px rgba(0, 0, 0, .1);
+    margin-top: 0px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+  }
